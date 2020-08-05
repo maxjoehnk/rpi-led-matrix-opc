@@ -1,0 +1,15 @@
+[package]
+name = "rpi-led-matrix-opc"
+version = "0.1.0"
+authors = ["Max Jöhnk <maxjoehnk@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rpi-led-matrix = { git = "https://github.com/helvethor/rust-rpi-rgb-led-matrix" }
+async-std = "1.6"
+anyhow = "1"
+futures = "0.3"
+log = "0.4"
+env_logger = "0.7"
+bytes = "0.5"
+futures_codec = "0.4.1"
